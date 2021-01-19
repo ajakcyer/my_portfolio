@@ -164,3 +164,15 @@ nav { display: none;}
     background: var(--clr-light);
     opacity: 0.25;
 }
+
+@media (min-width: 800px) {
+    .services {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .service + .service {
+        margin-left: 2em;
+    }
+}
