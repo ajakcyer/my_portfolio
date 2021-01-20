@@ -38,6 +38,11 @@
 
 /* General styles */
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
