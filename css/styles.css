@@ -514,3 +514,13 @@ header {
 .project-buttons {
     text-align: center;
 }
+
+.project-buttons a {
+    border: 1px solid black;
+    padding: .2em;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--clr-accent);
+    color: var(--clr-dark);
+    margin-right: 1em;
+}
