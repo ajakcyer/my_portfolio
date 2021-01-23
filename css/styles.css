@@ -510,3 +510,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.project-buttons {
+    text-align: center;
+}
