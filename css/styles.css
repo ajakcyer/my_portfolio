@@ -176,7 +176,7 @@ header {
 .nav__link {
     color: inherit;
     font-weight: var(--fw-bold);
-    font-size: var(--fs-h3);
+    font-size: var(--fs-h2);
     text-decoration: none;
 }
 
@@ -347,14 +347,17 @@ header {
     justify-content: center;
     align-items: center;
     min-height: 100px;
-    border: 1px solid white;
+    border: 1px solid var(--clr-accent);
+    border-radius: 30px;
+    padding: .6em;
 }
 
 .skills img {
     min-width: 50px;
     max-width: 50px;
+    max-height: 50px;
+    min-height: 50px;
     margin: 0 auto;
-    /* display: inline-block; */
 }
 
 @media (min-width: 800px) {
