@@ -315,11 +315,11 @@ header {
 
 
 
-.services {
+.skills {
     margin-bottom: 4em;
 }
 
-.service {
+/* .service {
     max-width: 500px;
     margin: 0 auto;
 }
@@ -332,6 +332,29 @@ header {
 
 .service li {
     padding-bottom: .3em;
+} */
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    list-style: none;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.skills li {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    border: 1px solid white;
+}
+
+.skills img {
+    min-width: 50px;
+    max-width: 50px;
+    margin: 0 auto;
+    /* display: inline-block; */
 }
 
 @media (min-width: 800px) {
