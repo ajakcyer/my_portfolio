@@ -505,6 +505,10 @@ header {
     margin: 0 auto;
 }
 
+.portfolio-item-individual video {
+    max-width: 100%;
+}
+
 .portfolio-item-individual p {
     max-width: 600px;
     margin-left: auto;
