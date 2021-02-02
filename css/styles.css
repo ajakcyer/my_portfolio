@@ -542,3 +542,8 @@ header {
     color: var(--clr-dark);
     margin-right: 1em;
 }
+
+.project-button-solo a {
+    margin-right: 0;
+
+}
