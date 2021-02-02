@@ -509,6 +509,20 @@ header {
     max-width: 100%;
 }
 
+.portfolio-item-technologies {
+    text-align: center;
+}
+
+.portfolio-item-technologies p {
+    font-weight: var(--fw-bold);
+    text-decoration: underline;
+}
+
+.portfolio-item-technologies ul {
+    list-style: none;
+    padding: 0;
+}
+
 .portfolio-item-individual p {
     max-width: 600px;
     margin-left: auto;
