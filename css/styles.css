@@ -12,10 +12,16 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-light: #fff;
+    /* --clr-light: #fff;
 
     --clr-dark: #303030;
-    --clr-accent: #6cf0da;
+    --clr-accent: #6cf0da; */
+
+    --clr-light: #e9edf6
+    ;
+    --clr-dark: #363a69;
+    --clr-accent: #cabbd8
+    ;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
