@@ -447,6 +447,12 @@ header {
 
 }
 
+@media (max-width: 300px){
+    .portfolio__item {
+        max-width: 150px;
+    }
+}
+
 .portfolio__item:focus {
     position: relative;
     z-index: 2;
