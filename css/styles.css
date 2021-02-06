@@ -447,9 +447,9 @@ header {
 
 }
 
-@media screen and (max-width: 300px){
+@media (max-width: 400px){
     .portfolio__item {
-        max-height: 150px;
+        max-width: 300px;
     }
 }
 
